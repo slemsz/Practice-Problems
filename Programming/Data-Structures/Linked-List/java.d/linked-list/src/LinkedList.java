@@ -23,9 +23,8 @@ public class LinkedList {
     LinkedList.CLI(list_types, scanner);
   }
 
-  public static String read_next_arg(Scanner scanner) { 
-    String message = scanner.nextLine();
-    return message;
+  public static String read_next_arg(Scanner scanner) {
+      return scanner.nextLine();
   }
 
   public static void msg_out(String msg) { 
